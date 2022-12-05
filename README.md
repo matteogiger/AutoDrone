@@ -30,6 +30,7 @@ to be added
 
 # Credits
 The projects c_uart_interface_example by mavlink and ldlidar_stl_sdk by ldrobotSensorTeam have helped the development of this project tremendously.
+
 https://github.com/ldrobotSensorTeam/ldlidar_stl_sdk
 https://github.com/mavlink/c_uart_interface_example
 
