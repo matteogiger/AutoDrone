@@ -724,10 +724,10 @@ void autonomous_flight(Autopilot_Interface &api, ldlidar::LiPkg* lidar)
 
   	std::cout << "Exploration mode has collected " << way_1.size() << " waypoints." << std::endl;
 
-    std::cout << "reversing waypoint list..." << std::endl;    
-    std::reverse(way_1.begin(), way_1.end());
+        std::cout << "reversing waypoint list..." << std::endl;    
+        std::reverse(way_1.begin(), way_1.end());
 
-    waypoint_mode(api, lidar, &way_1);
+        waypoint_mode(api, lidar, &way_1);
 
 	land(api);
 
